@@ -1,0 +1,86 @@
+body{
+    background-color:rgb(248, 248, 248);
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.container-style{
+    background-color: rgb(27, 107, 2);
+}
+
+.left-col{
+    background-color: rgb(12, 202, 28);
+}
+
+.title1{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.title2{
+    font-family: 'Rozha One', serif;
+    font-weight: 500;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.text{
+    
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    padding-right: 250px;
+
+}
+
+.input-style{
+    border: 1px solid #dfdfdfa1;
+    width:80%;
+    margin:20px 0px 30px 0px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.radio-style{
+    font-size: 18px;
+    font-weight:600;
+    color:rgb(24, 71, 6);
+    padding-left: 0px;
+}
+
+.button-style1{
+    background-color: transparent;
+    color:rgb(0, 0, 0); 
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px;
+    padding:15px 60px;
+    text-decoration: underline;
+}
+.button-style1:hover{
+    background-color: transparent;
+    color: #c6d9ee;
+}
+
+.button-style2{
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px;
+    padding:15px 60px;
+}
+.button-style2:hover{
+    background-color: black;
+    color: white;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
